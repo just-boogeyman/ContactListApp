@@ -68,7 +68,7 @@
 			children = (
 				046498DB292D0FB400310C67 /* App */,
 				046498DC292D0FCA00310C67 /* ViewControllers */,
-				046498E6292D155100310C67 /* Services */,
+				04F326EF292FAF90002474B4 /* Services */,
 				046498E3292D151800310C67 /* Models */,
 				046498DD292D0FD900310C67 /* Storyboards */,
 				046498DE292D0FEB00310C67 /* Resources */,
@@ -122,12 +122,12 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		046498E6292D155100310C67 /* Services */ = {
+		04F326EF292FAF90002474B4 /* Services */ = {
 			isa = PBXGroup;
 			children = (
 				046498E7292D158400310C67 /* DataStore.swift */,
 			);
-			name = Services;
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
