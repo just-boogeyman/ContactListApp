@@ -17,6 +17,7 @@
 		046498E2292D142F00310C67 /* PersonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046498E1292D142F00310C67 /* PersonDetailViewController.swift */; };
 		046498E5292D152D00310C67 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046498E4292D152D00310C67 /* Person.swift */; };
 		046498E8292D158400310C67 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046498E7292D158400310C67 /* DataStore.swift */; };
+		0474FA50292FA2EE004EA8BB /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474FA4F292FA2EE004EA8BB /* TabbarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		046498E1292D142F00310C67 /* PersonDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailViewController.swift; sourceTree = "<group>"; };
 		046498E4292D152D00310C67 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		046498E7292D158400310C67 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		0474FA4F292FA2EE004EA8BB /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		046498DC292D0FCA00310C67 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				0474FA4F292FA2EE004EA8BB /* TabbarViewController.swift */,
 				046498DF292D134400310C67 /* PersonViewController.swift */,
 				0435FBD5292D0F330059516E /* DetailViewController.swift */,
 				046498E1292D142F00310C67 /* PersonDetailViewController.swift */,
@@ -198,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0474FA50292FA2EE004EA8BB /* TabbarViewController.swift in Sources */,
 				046498E8292D158400310C67 /* DataStore.swift in Sources */,
 				046498E5292D152D00310C67 /* Person.swift in Sources */,
 				0435FBD6292D0F330059516E /* DetailViewController.swift in Sources */,

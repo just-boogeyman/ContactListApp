@@ -27,7 +27,7 @@ extension Person {
         let email = DataStore.shared.email.shuffled()
         var persons: [Person] = []
         
-        for index in 0..<(names.count) {
+        for index in 0..<names.count {
             persons.append(Person(
                 name: names[index],
                 surname: surnames[index],

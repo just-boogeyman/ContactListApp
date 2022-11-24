@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import UIKit
 
 // MARK: - DataStore Services
 
@@ -14,28 +13,28 @@ class DataStore {
     
     static let shared = DataStore()
     
-    var names = [
+    let names = [
         "John",
         "Aaron",
         "Tim",
         "Ted",
         "Steven"
     ]
-    var surnames = [
+    let surnames = [
         "Smith",
         "Dow",
         "Isaacson",
         "Pennyworth",
         "Jankins"
     ]
-    var phone = [
+    let phone = [
         "+13979141",
         "+32179141",
         "+45379141",
         "+98279141",
         "+77779141"
     ]
-    var email = [
+    let email = [
         "Smith@mail.ru",
         "Aaron@mail.ru",
         "Tim@mail.ru",

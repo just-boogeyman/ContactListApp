@@ -9,8 +9,7 @@ import UIKit
 
 class PersonDetailViewController: UITableViewController {
 
-    private let persons = Person.getPersons()
-    private let countCell = 2
+    var persons: [Person]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,16 +23,15 @@ extension PersonDetailViewController {
     // MARK: - Table view data source
     
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return persons.count
+        persons.count
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return countCell
+        2
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        let section = persons[section].fullName
-        return section
+        persons[section].fullName
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
